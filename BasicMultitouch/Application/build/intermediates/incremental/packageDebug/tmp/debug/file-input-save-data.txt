@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Jan 10 10:37:30 CET 2023
+0.base=D\:\\Eigene Dateien\\Documents\\WS 2022_2023\\Continuos Delivery\\android_ci\\BasicMultitouch\\Application\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.path=classes.dex
+count=1
+0.baseType=DIRECTORY
+0.set=DEX
