@@ -42,20 +42,20 @@ List<String> dirs = [
 
 android {
 
-    signingConfigs {
-        debug {
-            storeFile file('keystore.jks')
-            storePassword findProperty('123456')
-            keyPassword findProperty('123456')
-            keyAlias 'key0'
-        }
-        release {
-            storeFile file('keystore/android-keystore.jks')
-            storePassword findProperty('storePassword')
-            keyPassword findProperty('keyPassword')
-            keyAlias 'playstore'
-        }
-    }
+//    signingConfigs {
+//        debug {
+//            storeFile file('keystore.jks')
+//            storePassword findProperty('123456')
+//            keyPassword findProperty('123456')
+//            keyAlias 'key0'
+//        }
+//        release {
+//            storeFile file('keystore/android-keystore.jks')
+//            storePassword findProperty('storePassword')
+//            keyPassword findProperty('keyPassword')
+//            keyAlias 'playstore'
+//        }
+//    }
     compileSdkVersion 31
 
     defaultConfig {
