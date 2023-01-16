@@ -59,7 +59,7 @@ android {
 //            keyPassword findProperty('keyPassword')
 //            keyAlias 'playstore'
 //        }
-    }
+//    }
     compileSdkVersion 31
 
     defaultConfig {
