@@ -53,12 +53,12 @@ android {
             keyPassword keystoreProperties['123456']
             keyAlias keystoreProperties['key0']
         }
-        release {
-            storeFile file('keystore/android-keystore.jks')
-            storePassword findProperty('storePassword')
-            keyPassword findProperty('keyPassword')
-            keyAlias 'playstore'
-        }
+//        release {
+//            storeFile file('keystore/android-keystore.jks')
+//            storePassword findProperty('storePassword')
+//            keyPassword findProperty('keyPassword')
+//            keyAlias 'playstore'
+//        }
     }
     compileSdkVersion 31
 
