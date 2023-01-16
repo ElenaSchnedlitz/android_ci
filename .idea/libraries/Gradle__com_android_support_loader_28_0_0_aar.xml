@@ -2,8 +2,8 @@
   <library name="Gradle: com.android.support:loader:28.0.0@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/81d3cae14175b6b4643ab33dca665981/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b70a86c453c105dbfd017a10bbcd7245/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b70a86c453c105dbfd017a10bbcd7245/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/67e5550fdbe3ad36e7c3709b75ac2660/transformed/loader-28.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/67e5550fdbe3ad36e7c3709b75ac2660/transformed/loader-28.0.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

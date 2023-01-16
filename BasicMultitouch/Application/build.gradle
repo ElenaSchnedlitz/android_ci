@@ -6,7 +6,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.4.2'
+        classpath 'com.android.tools.build:gradle:7.3.1'
     }
 }
 
@@ -42,21 +42,25 @@ List<String> dirs = [
 
 android {
 
-    compileSdkVersion 28
-
-
-//    signingConfigs {
-//        debug {
-//            storeFile file('keystore.jks')
-//            storePassword findProperty('123456')
-//            keyPassword findProperty('123456')
-//            keyAlias 'key0'
-//        }
-//    }
+    signingConfigs {
+        debug {
+            storeFile file('keystore/android-keystore.jks')
+            storePassword findProperty('storePassword')
+            keyPassword findProperty('keyPassword')
+            keyAlias 'playstore'
+        }
+        release {
+            storeFile file('keystore/android-keystore.jks')
+            storePassword findProperty('storePassword')
+            keyPassword findProperty('keyPassword')
+            keyAlias 'playstore'
+        }
+    }
+    compileSdkVersion 31
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 28
+        targetSdkVersion 31
     }
 
     compileOptions {
