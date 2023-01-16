@@ -17,3 +17,11 @@
 * comment out SigningConfigs to import later
 * Rebuild -> AndroidX
 * add secret to repository
+
+### Questions answered
+
+* Q: Was fällt Ihnen beim vorgegebenen Android CI Workflow auf? Kann dabei schon von Continuous Delivery gesprochen werden? 
+* A: eigentlich schon ja, da bei jeden push oder pull-request der gradlew build ausgeführt wird
+
+* Q: Testen Sie erneut das Bauen der APK. Wo erscheint die APK nach erfolgreichem Durchlauf des Workflows? Kann die APK gebaut werden? 
+* A: die APK erscheint im angegbenen Pfad den man bei "path" hinzugefügt hat
