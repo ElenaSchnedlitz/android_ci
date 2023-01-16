@@ -44,10 +44,10 @@ android {
 
     signingConfigs {
         debug {
-            storeFile file('keystore/android-keystore.jks')
-            storePassword findProperty('storePassword')
-            keyPassword findProperty('keyPassword')
-            keyAlias 'playstore'
+            storeFile file('keystore.jks')
+            storePassword findProperty('123456')
+            keyPassword findProperty('123456')
+            keyAlias 'key0'
         }
         release {
             storeFile file('keystore/android-keystore.jks')
