@@ -18,6 +18,10 @@
 * Rebuild -> AndroidX
 * add secret to repository
 
+* add release apk to repo
+* fix errors with keystore.jks with removing properties and fixing the path
+* 
+
 ### Questions answered
 
 * Q: Was fällt Ihnen beim vorgegebenen Android CI Workflow auf? Kann dabei schon von Continuous Delivery gesprochen werden? 

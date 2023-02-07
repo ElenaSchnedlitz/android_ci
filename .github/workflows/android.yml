@@ -32,7 +32,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: Application-realease.apk
-        path: Application/build/outputs/apk/release/Application-release.apk
+        path: BasicMultitouch/Application/build/outputs/apk/release/Application-release.apk
     - name: Prepare Keystore and properties
       run: |
         echo "${{secrets.ANDROID_KEYSTORE}}" > keystore.asc
