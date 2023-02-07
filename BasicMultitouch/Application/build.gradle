@@ -46,20 +46,20 @@ List<String> dirs = [
 
 android {
 
-//    signingConfigs {
-//        debug {
-//            storeFile file(keystoreProperties['keystore.jks'])
-//            storePassword keystoreProperties['123456']
-//            keyPassword keystoreProperties['123456']
-//            keyAlias keystoreProperties['key0']
-//        }
+    signingConfigs {
+        debug {
+            storeFile file('D:\\Eigene Dateien\\Documents\\WS 2022_2023\\Continuos Delivery\\android_ci\\BasicMultitouch\\Application\\keystore.jks')
+            storePassword '123456'
+            keyPassword '123456'
+            keyAlias 'key0'
+        }
 //        release {
 //            storeFile file('keystore/android-keystore.jks')
 //            storePassword findProperty('storePassword')
 //            keyPassword findProperty('keyPassword')
 //            keyAlias 'playstore'
 //        }
-//    }
+    }
     compileSdkVersion 31
 
     defaultConfig {
