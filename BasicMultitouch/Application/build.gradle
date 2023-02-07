@@ -54,12 +54,18 @@ android {
             keyPassword '123456'
             keyAlias 'key0'
         }
-//        release {
-//            storeFile file('keystore/android-keystore.jks')
-//            storePassword findProperty('storePassword')
-//            keyPassword findProperty('keyPassword')
-//            keyAlias 'playstore'
-//        }
+        release {
+            storeFile file(".\\keystore.jks")
+            storePassword '123456'
+            keyPassword '123456'
+            keyAlias 'key0'
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
     }
 
 
