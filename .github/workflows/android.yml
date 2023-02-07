@@ -31,14 +31,14 @@ jobs:
     - name: Publish APK
       uses: actions/upload-artifact@v3
       with:
-        name: Application-realease.apk
+        name: Application-release.apk
         path: BasicMultitouch/Application/build/outputs/apk/release/Application-release.apk
     - name: Prepare Keystore and properties
       run: |
         echo "${{secrets.ANDROID_KEYSTORE}}" > keystore.asc
         cd BasicMultitouch
         mkdir Application/keystore
-        gpg -d --passphrase "${{secrets.ANDROID_KEYSTORE_PASSPHRASE}}" -batch android-keystore.asc > Application/keystore/keystore.jks
+        gpg -d --passphrase "${{secrets.ANDROID_KEYSTORE_PASSPHRASE}}" -batch android-keystore.asc > Application/keystore.jks
         echo "storePassword=${{secrets.ANDROID_KEYSTORE_PASSPHRASE}}" >> gradle.properties
         echo "keyPassword=${{secrets.ANDROID_KEYSTORE_PASSPHRASE}}" >> gradle.properties
     - name: Final Check with Jar Signer

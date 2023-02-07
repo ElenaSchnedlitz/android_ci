@@ -20,7 +20,7 @@
 
 * add release apk to repo
 * fix errors with keystore.jks with removing properties and fixing the path
-* 
+* after the workflow there is now a an "Artifacts" section visible with the "Application-release.apk"
 
 ### Questions answered
 
