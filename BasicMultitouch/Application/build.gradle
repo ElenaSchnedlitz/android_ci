@@ -45,6 +45,7 @@ List<String> dirs = [
 //keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 
 android {
+    compileSdkVersion 31
 
     signingConfigs {
         debug {
@@ -60,7 +61,8 @@ android {
 //            keyAlias 'playstore'
 //        }
     }
-    compileSdkVersion 31
+
+
 
     defaultConfig {
         minSdkVersion 14
